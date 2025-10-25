@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Guess a Dice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <div>
+      <p>How many sides does this dice have?</p>
+    </div>
 
-<head>
+    <label>Enter the number of dice sides here:</label>
+    <input type="text" id="diceSides" />
 
-  <meta charset="UTF-8" />
+    <label>Enter Your Guess:</label>
+    <input type="text" id="YourGuess" />
 
-  <title>Guess a dice</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <script src="script.js"></script>
-</head>
-
-<body>
-
-  <h1>Hello, world!</h1>
-  <div><p>How many sides of this dice do you want?</p>
-  </div>
-  <label>Enter amount of dice sides here:</label>
-  <input type="text" id="diceSides">
-  <label> Enter Your Guess </label>
-  <input type="text" id="YourGuess">
-  <button className="submit">Submit</button>
-</body>
-
+    <button id="submitBtn">Submit</button>
+  </body>
 </html>
