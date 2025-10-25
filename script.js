@@ -2,7 +2,7 @@
 const diceSidesElement = document.getElementById("diceSides");
 const guessElement = document.getElementById("YourGuess");
 const submitButton = document.getElementById("submitBtn");
-const answerBox = document.getElementById("");
+const answerBox = document.getElementById("Answer");
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -10,8 +10,8 @@ submitButton.addEventListener("click", () => {
   const diceSides = diceSidesElement.value;
   const userGuess = guessElement.value;
   if (getRandomInt(diceSides) === userGuess) {
-    answerBox.value +_" You Win "
+    answerBox.value += " You Win ";
   } else {
-    console.log("You Lose");
+    answerBox.value += " You Lose ";
   }
 });
