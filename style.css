@@ -1,6 +1,6 @@
 /* General page setup */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
   color: #fff;
   text-align: center;
@@ -74,5 +74,7 @@ button:hover {
   color: #ffeb3b;
 }
 
-#Correct-Container, #Wrong-Container {
-  background: rgba(255, 255, 2
+#Correct-Container,
+#Wrong-Container {
+  background: rgba(255, 255, 2);
+}
