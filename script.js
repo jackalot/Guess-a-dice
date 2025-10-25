@@ -3,7 +3,7 @@ const guessElement = document.getElementById("YourGuess");
 const submitButton = document.getElementById("submitBtn");
 const answerBox = document.getElementById("Answer");
 const correctTicker = document.getElementById("Correct");
-const WrongTicker = document.getElementById("Wrong");
+const wrongTicker = document.getElementById("Wrong");
 let Correct = 0;
 let Wrong = 0;
 function getRandomInt(max) {
