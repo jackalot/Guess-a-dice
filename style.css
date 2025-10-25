@@ -1,0 +1,78 @@
+/* General page setup */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Input container */
+div {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 1em;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  background-color: #00c853;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00e676;
+  transform: scale(1.05);
+}
+
+/* Answer and score sections */
+#Answer {
+  font-size: 1.2rem;
+  color: #ffeb3b;
+}
+
+#Correct-Container, #Wrong-Container {
+  background: rgba(255, 255, 2
