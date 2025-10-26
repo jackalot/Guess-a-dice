@@ -7,6 +7,9 @@ const wrongTicker = document.getElementById("Wrong");
 const amountTicker = document.getElementById("DiceAmount"); // Corrected ID reference
 let Correct = 0;
 let Wrong = 0;
+diceSidesElement.addEventListener("click", () => {
+  guessElement.setAttribute("max", diceSidesElement.value);
+});
 guessElement.addEventListener("click", () => {
   guessElement.setAttribute("max", diceSidesElement.value);
 });
