@@ -7,7 +7,9 @@ const wrongTicker = document.getElementById("Wrong");
 const amountTicker = document.getElementById("DiceAmount"); // Corrected ID reference
 let Correct = 0;
 let Wrong = 0;
-
+guessElement.addEventListener("click", () => {
+  guessElement.setAttribute("max", diceSidesElement.value);
+});
 function getRandomInt(max) {
   // Returns a random integer between 1 and max (inclusive)
   return Math.floor(Math.random() * max) + 1;
